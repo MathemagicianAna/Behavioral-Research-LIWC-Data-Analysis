@@ -1,4 +1,4 @@
-# Exam Answer Processing Pipeline - Guide for Iraa
+# Exam Answer Processing Pipeline - Guide
 
 This folder contains two scripts that turn student exam PDFs/DOCX files
 into organized, question-by-question text data.
@@ -97,7 +97,7 @@ Replace the placeholder text with your copied path, **keeping the
 quotation marks and the `r` right before them**:
 
 ```python
-INPUT_FOLDER = r"C:\Users\iraa\Downloads\MGHC23_Exam_Files"
+INPUT_FOLDER = r"C:\Users\name\Downloads\MGHC23_Exam_Files"
 ```
 
 The `r` before the quotes is important - don't remove it. It tells
@@ -135,7 +135,7 @@ Explorer address bar to spot the difference.
 3. In PowerShell, navigate to the folder containing the script. For
    example:
    ```
-   cd C:\Users\iraa\Documents\MGHC23_pipeline
+   cd C:\Users\name\Documents\MGHC23_pipeline
    ```
 4. Run the script:
    ```
